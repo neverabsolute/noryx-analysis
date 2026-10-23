@@ -1,0 +1,132 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Noryx</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Collections">
+      <HintPath>extracted/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>extracted/Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>extracted/System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>extracted/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>extracted/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>extracted/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>extracted/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>extracted/System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>extracted/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>extracted/System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Amcache">
+      <HintPath>extracted/Amcache.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>extracted/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography">
+      <HintPath>extracted/System.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>extracted/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite">
+      <HintPath>extracted/Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>extracted/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>extracted/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>extracted/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="Prefetch">
+      <HintPath>extracted/Prefetch.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>extracted/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>extracted/System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>extracted/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>extracted/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="AppCompatCache">
+      <HintPath>extracted/AppCompatCache.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>extracted/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Primitives">
+      <HintPath>extracted/System.Windows.Forms.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>extracted/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>extracted/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData">
+      <HintPath>extracted/System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>extracted/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>extracted/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>extracted/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>extracted/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>extracted/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>extracted/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>extracted/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Json">
+      <HintPath>extracted/System.Net.Http.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

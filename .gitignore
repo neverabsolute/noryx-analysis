@@ -1,0 +1,5 @@
+# The original binary is 159 MiB and is the subject of the analysis, not part of it.
+# Do not redistribute it.
+*.exe
+*.dll
+extracted/
